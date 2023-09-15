@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Let's Talk</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="logo">
+          <a href="index.html"><h2>Ifeanyi.</h2></a>
+        </div>
+
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"
+                ><i class="bx bx-home-alt-2"><span>Home</span></i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link"
+                ><i class="bx bx-user"><span>About</span></i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="portfolio.html" class="nav-link"
+                ><i class="bx bx-briefcase"><span>Portfolio</span></i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link"
+                ><i class="bx bx-phone"><span>Contact</span></i></a
+              >
+            </li>
+          </ul>
+        </div>
+
+        
+
+        <div class="btn">
+          <!-- Theme change button -->
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+          <button style="border: none" class="button">Contact Now</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--========== CONTACT AREA ==========-->
+      <section class="contact section" id="contact">
+        <div class="container contact-area">
+          <div class="form-links">
+            <div class="links">
+              <div class="phone">
+                <a href="tel: 08123410135" target="_blank"
+                  ><i class="bx bx-phone"></i
+                ></a>
+                <h3>+234 812 341 0135</h3>
+              </div>
+
+              <div class="mail">
+                <a><i class="bx bx-mail-send"></i></a>
+                <h3>anekeiifeanyi@gmail.com</h3>
+              </div>
+
+              <div class="whatsapp">
+                <a href="https://wa.link/9vfpd7" target="_blank"
+                  ><i class="bx bxl-whatsapp"></i
+                ></a>
+                <h3>Chat On WhatsApp</h3>
+              </div>
+            </div>
+
+            <div class="form" id="contact">
+              <h2>Let's Talk!</h2>
+              <p>
+                Use the form and send me a message or you can just say hello
+                through the social network links above
+              </p>
+              <form action = "https://formsubmit.co/anekeiifeanyi@gmail.com" method="POST">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name" required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email" required
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Your Subject" 
+                />
+                <input type="hidden" name="_captcha" value="false"><input type="hidden" name="_captcha" value="false">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Say Hello!!!"
+                ></textarea>
+                <button type="submit" class="button">Say Hello</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="container footer-area">
+          <div class="footer-text">
+            <h3>&#169 2023 Aneke Ifeanyi</h3>
+          </div>
+          <div class="footer-socials">
+            <a href="https://twitter.com/Anekegaza"><i class="bx bxl-twitter"></i></a>
+            <a href="https://github.com/anekegaza"><i class="bx bxl-github"></i></a>
+            <!-- <a href=""><i class="bx bxl-facebook"></i></a> -->
+          </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scroll-up" id="scrollup">
+      <i class="bx bx-chevrons-up"></i>
+    </a>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
