@@ -323,8 +323,10 @@ p {
 }
 
 .hero-img {
-  width: 450px;
-  margin-bottom: -2.3rem;
+  width: 350px;
+  /* margin-bottom: -2.3rem; */
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
 }
 
 /*=============== BUTTON ===============*/
@@ -932,8 +934,8 @@ textarea {
     justify-content: center;
   }
   .hero-img {
-    width: 800px;
-    margin-bottom: -2.5rem;
+    width: 600px;
+    /* margin-bottom: -2.5rem; */
   }
 
   .section {
