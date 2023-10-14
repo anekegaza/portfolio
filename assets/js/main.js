@@ -97,10 +97,10 @@ sr.reveal(` .hero-text, .testimonial-area, .form`);
 sr.reveal(`.about-area, .portfolio-area`, { delay: 500 });
 sr.reveal(`.skill-content`, { delay: 600 });
 sr.reveal(`.home-value`, { delay: 700 });
-sr.reveal(`.hero-btn`, { delay: 800, origin: "bottom" });
-sr.reveal(`.card-container-2`, { delay: 900, origin: "bottom" });
+sr.reveal(`.hero-btn`, { delay: 500, origin: "bottom" });
+sr.reveal(`.card-container-2`, { delay: 500, origin: "bottom" });
 sr.reveal(`.about-accordion, input, textarea`, {
-  delay: 600,
+  delay: 500,
   origin: "top",
 });
 sr.reveal(`.logos-img, .hero-img`, { interval: 100 });
@@ -109,7 +109,7 @@ sr.reveal(``, {
 });
 sr.reveal(``, { origin: "right" });
 sr.reveal(`.card-container , .wwm-area, .portfolio-card, .links`, {
-  delay: 800,
+  delay: 500,
   origin: "left",
 });
 

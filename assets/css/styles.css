@@ -555,7 +555,8 @@ h3 {
 .footer-area {
   margin-bottom: 6rem;
   display: flex;
-  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -568,6 +569,7 @@ h3 {
   font-size: 20px;
   padding: 0 0.5rem;
   cursor: pointer;
+  text-align: right;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -934,7 +936,7 @@ textarea {
     justify-content: center;
   }
   .hero-img {
-    width: 600px;
+    width: 500px;
     /* margin-bottom: -2.5rem; */
   }
 
@@ -976,13 +978,14 @@ textarea {
     font-size: 20px;
   }
   .footer {
-    display: grid;
+    display: flex;
   }
   .footer-area {
-    display: grid;
+    margin-bottom: 6rem;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
-    text-align: right;
-    gap: 500px;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .about-area,
